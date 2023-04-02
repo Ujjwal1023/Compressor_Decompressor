@@ -10,7 +10,7 @@ public class compress {
     public static void method(File file)throws IOException {
         String filedirectory=file.getParent();
         FileInputStream fis =new FileInputStream(file);
-        FileOutputStream fos =new FileOutputStream(filedirectory+"/compressfile.gz");
+        FileOutputStream fos =new FileOutputStream(filedirectory+"/compressfile.jpg");
         GZIPOutputStream gzip=new GZIPOutputStream(fos);
 
 
